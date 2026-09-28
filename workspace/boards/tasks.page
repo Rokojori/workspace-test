@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Tasks — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Tasks</h1></full--width--area>
+</full--width--block>
+
+
+<kan--ban>
+  <board--column style="--highlight--color: hsl(0, 90%, 65%)" data--list--id="la1">
+    <board--column--title>To Do</board--column--title>
+    <board--task data--collapsed="">
+      <board--task--title><h3>First task</h3></board--task--title>
+      <board--task--description>Describe what needs to be done.</board--task--description>
+    </board--task>
+  </board--column>
+  <board--column style="--highlight--color: hsl(40, 80%, 60%)" data--list--id="la2">
+    <board--column--title>In Progress</board--column--title>
+  </board--column>
+  <board--column style="--highlight--color: hsl(140, 52%, 49%)" data--list--id="la3">
+    <board--column--title>Done</board--column--title>
+  </board--column>
+</kan--ban></page--root>
+
+<page--footer></page--footer>
+
+
+
+</body></html>

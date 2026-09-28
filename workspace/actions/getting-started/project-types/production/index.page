@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Production — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Production</h1><div><marked-text>Logistics-first</marked-text> - organized around what needs to exist on a specific day. Scene breakdowns, prop and costume lists, cast and crew, schedules. Good for theatre, film, recorded shows, exhibitions, and any project that ends with a live or released event.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. What kind of production? (theatre, film, recorded show, exhibition, podcast)</div><div>2. What is the <marked-text>performance or release date</marked-text>?</div><div>3. How many people are involved? What are the main roles?</div><div>4. Is there an existing script or concept, or starting from scratch?</div><div>5. What are the main <marked-text>departments</marked-text>? (direction, costumes, sets, lighting, sound, camera)</div><div>6. Venue or format? (stage, location shoot, studio, online)</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with show title, type, performance dates, and venue or format.</div><div><br></div><div>Create a <marked-text>scenes/</marked-text> directory - one page per act or scene with character list, props needed, and notes.</div><div><br></div><div>Create a <marked-text>departments/</marked-text> directory - one page per department with their asset lists and responsibilities.</div><div><br></div><div>Set up boards with production phases as columns: <marked-text>Pre-Production, Production, Post</marked-text>. For theatre also add: Rehearsal, Tech, Dress, Performance.</div><div><br></div><div>Add a schedule page under reference/ once dates and milestones are known.</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div><marked-text>scene, act, call sheet, prop, costume, blocking, tech rehearsal, dress rehearsal, strike, run time</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

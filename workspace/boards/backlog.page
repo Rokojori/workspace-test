@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Backlog — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Backlog</h1></full--width--area>
+</full--width--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Ideas &amp; Future Direction</h2><div>Add longer-horizon ideas, vague features, and things that are too big or unclear for tasks yet.</div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

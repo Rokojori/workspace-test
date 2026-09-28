@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Creating Pages — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Creating Pages</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Steps</h2><div><strong>1.</strong> Copy <a href="template.page">actions/creating-pages/template.page</a> to the target location inside the workspace.</div><div><br></div><div><strong>2.</strong> Rename the file to reflect its content (e.g. <em>auth-update.page</em>, <em>data-model.page</em>).</div><div><br></div><div><strong>3.</strong> Open the file in the page editor. Update the h1 title. Replace the placeholder block content with the real content.</div><div><br></div><div><strong>4.</strong> Save. Link to the new page from the relevant index (history, outline, guides, etc.).</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Page Conventions</h2><div>Use <strong>h1</strong> for the page title — one per page, at the top.</div><div>Use <strong>h2</strong> for section headings inside blocks.</div><div>Use <strong>h3</strong> for sub-headings within a section.</div><div><br></div><div><marked-text>Do not use headings as links.</marked-text> Headings styled as links are visually confusing — the heading colour already implies hierarchy, and the underline or hover state clashes with it. Put links in body text instead, as a "read it here" sentence or an inline reference.</div><div><br></div><div>Use <strong>marked-text</strong> for highlights. Use <strong>strong</strong> or <strong>b</strong> for bold emphasis. Use <strong>a</strong> for links in body text only.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

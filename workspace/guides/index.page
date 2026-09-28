@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Guides — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Guides</h1></full--width--area>
+</full--width--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>What Guides Are</h2><div>Guides are rules for agents when executing tasks.&nbsp; They ensure workflows, conventions and expectations are consistent.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Using Workspaces</h2><div>What the workspace folder is, how memory is organised, what goes where, and how to keep it current. Start here if you are new to this project or this system. <a href="using-workspaces/index.page">Read the guide.</a></div><div><br></div><h2>Workflow</h2><div>The session rhythm: what to read at the start, what to run at the end, and how agents should orient before starting work. <a href="workflow/index.page">Read the guide.</a></div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Conduct</h2><div>How agents should reason, check in, handle long investigations, and store project knowledge. Read this before starting work. <a href="agent-conduct/index.page">Read the guide.</a></div><div><br></div><h2>Adding More Guides</h2><div>Create a subfolder in <strong>guides</strong> with an <strong>index.page</strong> and link it here. Good candidates: coding conventions, architecture decisions, deployment steps, project-specific rules.</div></two--columns--area>
+</two--columns--block></page--root>
+
+<page--footer></page--footer>
+
+
+
+</body></html>

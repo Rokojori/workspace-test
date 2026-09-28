@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>New Page</title>
+  <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body>
+<page--header></page--header>
+
+<page--root>
+  <full--width--block data--page--block="">
+    <full--width--area data--page--area=""><h1>Boards</h1><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">Task managing with kan-bans</span></div></full--width--area>
+  </full--width--block>
+<full--width--block>
+  <full--width--area><h2>What is in the Boards</h2>&nbsp;Boards keep <marked-text>t<marked-text>asks, user stories, visions</marked-text></marked-text> - either&nbsp;<span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">concrete and vague&nbsp;- in one place and make it easy to prioritize and manager their states.</span></full--width--area>
+</full--width--block><two--columns--block>
+  <two--columns--area><h2>Tasks</h2><div>The main organization for managing things.&nbsp;</div><div>Organized classicly in <marked-text>to-do, in progress and done.</marked-text></div><div>Read and manage them <a href="../../../../../build/app/templates/workspaces/default/boards/tasks.page">here</a>.</div><div><br></div><div><h2 style="letter-spacing: -0.3px;">Bugs</h2><h2 style="letter-spacing: -0.3px;"><font color="#929caf"><span style="font-size: 16px; font-weight: 400;"><marked-text>Errors, fails, annoying things</marked-text> go&nbsp;<a href="http://localhost:3000/bugs.page">here</a>.</span></font></h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px;"><br></span></div><h2 style="letter-spacing: -0.3px;">Backlog</h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">I<marked-text>deas, future directions, vision</marked-text> go&nbsp;<a href="http://localhost:3000/build/app/templates/workspaces/default/boards/backlog.page">here</a>.</div></div></two--columns--area>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Custom Boards</h2><div>When some tasks are too long or need a seperate board, <marked-text>boards can also be created easily</marked-text>:</div><div><br></div><div>Just add a page with a kan-ban block.</div><div><br></div></two--columns--area>
+</two--columns--block></page--root>
+
+<page--footer></page--footer>
+
+</body></html>

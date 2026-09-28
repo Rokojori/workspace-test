@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Update History — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Update History</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>When to Run</h2><div>At the end of every working session, before closing. This is not optional — a missing history entry means lost context for the next session.</div><div><br></div><h2>Where to Put It</h2><div>Add a new entry at the top of <a href="../../history/index.page">history/index.page</a>.</div><div><br></div><div>For long or complex sessions, create a dedicated <strong>.page</strong> file inside a dated folder (e.g. <em>history/2026/08-August/04-Tuesday/session-name.page</em>) and link to it from the index.</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>What to Write</h2><div><strong>What was built or changed</strong> — be specific about systems, files, and behaviours. Name the things that changed.</div><div><br></div><div><strong>Decisions made and why</strong> — include the reasoning behind choices. This is the most valuable part. Future agents will use it to avoid undoing deliberate decisions.</div><div><br></div><div><strong>Anything surprising or non-obvious</strong> — constraints discovered, bugs encountered, workarounds applied. If it surprised you, it will surprise the next reader too.</div><div><br></div><div><strong>What was not done and why</strong> — if something was considered and deliberately skipped, note it. Prevents the same ground being covered again.</div><div><br></div><h2>What to Skip</h2><div>Do not copy code into history entries — reference files instead. Do not repeat what is already obvious from the code. Do not write step-by-step procedures — those belong in guides.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

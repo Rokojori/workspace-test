@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Research — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Research</h1><div>A workspace for structured user and product research. Covers the full cycle: <marked-text>interview questionnaires, participant notes, affinity clustering, feature rating, and insight synthesis</marked-text>. Raw data stays traceable back to the person it came from. Boards map clusters to insights. The agent can assist at every stage - from drafting questions to generating cluster labels to writing insight statements.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. What is the <marked-text>research topic</marked-text> or product being evaluated?</div><div>2. Who are the <marked-text>participants</marked-text>? (target group, recruitment criteria)</div><div>3. What <marked-text>decisions</marked-text> will this research inform?</div><div>4. Existing questionnaire or starting fresh?</div><div>5. How many participants are planned?</div><div>6. Are there specific features to rate, or is it exploratory?</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with the research topic, objectives, and the key questions this research must answer.</div><div><br></div><div>Create a <marked-text>questionnaire/</marked-text> directory - the interview guide, context-setting questions, exploration questions, and feature rating prompts.</div><div><br></div><div>Create a <marked-text>participants/</marked-text> directory - one page per participant with their notes, quotes, and ratings. Keep raw data here, unfiltered.</div><div><br></div><div>Create a <marked-text>guides/research-protocol/</marked-text> - how to conduct interviews, note-taking format, rating scale instructions.</div><div><br></div><div>Set up boards with three clusters boards: <marked-text>affinity clusters</marked-text> (raw notes grouped by theme), <marked-text>feature ratings</marked-text> (features with aggregated scores), and <marked-text>insights</marked-text> (synthesized findings ready to act on).</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div><marked-text>participant, interview, cluster, insight, affinity map, feature rating, prototype, synthesis, quote, theme</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

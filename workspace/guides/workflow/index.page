@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Workflow — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Workflow</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Start of Session</h2><div>Before doing any work, agents scan this places:</div><div><br></div><div>1. Open <a href="../../boards/tasks.page">boards/tasks.page</a>. Read what is in progress and what is next. This is your starting context.</div><div><br></div><div>2. Open <a href="../../history/index.page">history/index.page</a>. Read the most recent entry to recall where things were left and what decisions were made.</div><div><br></div><div>3.&nbsp;<span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);">Read also&nbsp;</span><a href="../../boards/backlog.page">boards/backlog.page</a><span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);">. There could be additional information.</span></div><div><span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);"><br></span></div><div><span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);">After that, an agent can propose to work on a task or asks what to do.&nbsp;</span></div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>End of Session</h2><div>Before closing, users and agents can use this actions:</div><div><br></div><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">1.</span>&nbsp;<a href="../../actions/update-history/index.page">Update History</a>&nbsp;</div><div>Log what was done, what was decided, and why. Always.</div><div><br></div><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">2.</span>&nbsp;<a href="../../actions/update-tasks/index.page">Update Tasks</a></div><div>Move completed items to Done, update in-progress items, add new ones.</div><div><br></div><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">3.</span>&nbsp;<a href="../../actions/update-outline/index.page">Update Outline</a></div><div>When something changed at the project level: new system built, scope shifted, key decision made.</div></two--columns--area>
+</two--columns--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>For Agents</h2><div>Before starting any task, an agent must:</div><div><br></div><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">1.&nbsp;</span><span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);">Read the overview of the&nbsp;</span><a href="../../guides/index.page">guides</a>&nbsp;and read more about&nbsp;<span style="font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: -0.3px; color: rgb(146, 156, 175);">rules that are relevant to a task.</span></div><div><br></div><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">2.</span>&nbsp;Read the <a href="../../reference/index.page">reference</a> - to get short cuts for understanding the code</div><div><br></div><div>3. When the process of thinking takes longer than 2k tokens, try to involve the user: Comminucate it takes longer or ask whether the user can help.</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>The Rhythm</h2><div>The workspace becomes productive when it is updated consistently. The loop is:</div><div><br></div><div><marked-text>Read → Work → Test → Document → Repeat</marked-text></div><div><br></div><div>Reading the workspace before starting means less time reconstructing context. Updating the workspace after finishing means the next session - whether yours or an agent's - starts with full context.</div><div><br></div><div>Short history entries are better than none. A rough task list is better than an empty board.&nbsp;</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+</body></html>

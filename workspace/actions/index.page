@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Actions — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Actions</h1></full--width--area>
+</full--width--block>
+
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>What Actions Are</h2><div>An action is a named, repeatable procedure - a step-by-step process for agents.&nbsp;</div></full--width--area>
+</full--width--block><two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Setup</h2><div><a href="getting-started/index.page">Getting Started</a> - initialize the workspace for a specific project type. Run once at the start of a new project.</div><div><br></div><h2>Standard Actions</h2><div><a href="update-history/index.page">Update History</a>&nbsp;-&nbsp;<span style="background-color: var(--block--background--color); color: var( --color ); font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: calc(-0.3px);">log the current session. Best at the end of every working session.</span></div><div><br></div><div><a href="update-tasks/index.page">Update Boards</a>&nbsp;-&nbsp;<span style="background-color: var(--block--background--color); color: var( --color ); font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: calc(-0.3px);">update the tasks, bugs and backlog. Run when tasks are completed, started, or added.</span></div><div><br></div><div><a href="update-outline/index.page">Update Outline</a>&nbsp;-&nbsp;<span style="background-color: var(--block--background--color); color: var( --color ); font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: calc(-0.3px);">update the project overview. Useful when scope or architecture changes.</span></div><div><br></div><div><a href="creating-pages/index.page">Creating Pages</a>&nbsp;-&nbsp;<span style="background-color: var(--block--background--color); color: var( --color ); font-family: var( --font--family ); font-size: var( --font--scale ); letter-spacing: calc(-0.3px);">how to create a new .page file from the template, and page writing conventions.</span></div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Adding New Actions</h2><div>Any repeatable multi-step process is a candidate for an action. Create a new subfolder inside <strong>actions/</strong> with an <strong>index.page</strong>. List it here once it is ready.</div><div><br></div><div>Good actions to add as the project grows: deploy procedure, testing checklist, release steps, onboarding a new contributor.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+
+</body></html>

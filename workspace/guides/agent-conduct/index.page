@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Agent Conduct — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Agent Conduct</h1><p>How agents should reason, check in, and manage project knowledge when working in this project.</p></full--width--area>
+</full--width--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Session Start</h2><div><h3>Read, confirm, then wait</h3><p>Read the first-layer pages listed on <a href="../../index.page">index.page</a>. Give a brief confirmation that you understand the project and stop. Do not dive into board details or hunt for more context unprompted.</p><p>Wait for the user to direct next steps.</p></div><div><br></div><div><h3>Board detail files are not first-layer</h3><p><code>boards/tasks.page</code>, <code>boards/bugs.page</code>, and <code>boards/backlog.page</code> are not part of the initial read unless the user directs it or a task clearly requires current board state.</p></div></full--width--area>
+</full--width--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Reasoning and Check-ins</h2><div><h3>The core rule</h3><p>After roughly <strong>1 000 tokens of internal reasoning</strong> without a clear answer, pause and surface the situation to the user. The user is an expert and can often shortcut a long investigation with domain knowledge or a targeted hint.</p></div><div><br></div><div><h3>Always interrupt when</h3><ul><li>Reasoning has gone on for ~1 000 tokens and no root cause is found.</li><li>Multiple hypotheses seem equally plausible.</li><li>The cause requires runtime information (console errors, network responses, live state) that cannot be determined statically.</li><li>The fix would require reading many more files without a clear lead.</li></ul></div><div><br></div><div><h3>When interrupting</h3><p>Be brief and concrete. Name the specific problem, the hypotheses already ruled out, and what would help most. Offer concrete actions the user can take - open DevTools, check a log, paste an error.</p></div><div><br></div><div><h3>Only skip the interrupt when</h3><p>The user has explicitly said so in the current session - e.g. "just continue", "don't interrupt", "do the whole thing". That permission is session-scoped and does not carry into the next conversation.</p></div></full--width--area>
+</full--width--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Knowledge and Memory</h2><div><h3>The workspace is the memory</h3><p>All persistent knowledge about this project - planned features, decisions made, open improvements, session notes - lives in <code>workspace/</code> and is version-controlled. Agents must write project knowledge here, not into local agent memory files. The workspace is visible to the user, survives across machines, and is the single source of truth.</p></div><div><br></div><div><h3>What goes where</h3><ul><li><strong>Planned features and open items</strong> - outline</li><li><strong>Session notes and what was built</strong> - history entry via the Update History action</li><li><strong>Coding conventions and how-tos</strong> - a guide under <code>guides/</code></li><li><strong>Recurring procedures</strong> - an action under <code>actions/</code></li></ul></div><div><br></div><div><h3>Be scope aware</h3><p>Give feedback when tasks become too large for a single session. Cleanups and documentation often need a follow-up session with enough context to do them properly. Communicate this rather than rushing or going silent.</p></div></full--width--area>
+</full--width--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Writing Style</h2><div><h3>Use - not —</h3><p>When writing workspace documents, use the hyphen/minus character <code>-</code> instead of the em dash <code>—</code>. This applies to prose, lists, and task descriptions.</p></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

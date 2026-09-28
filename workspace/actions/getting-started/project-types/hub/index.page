@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Hub — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Hub</h1><div>A container project for an IP, organization, or anything that wraps multiple sub-projects. The Hub holds the big picture - <marked-text>shared lore, brand, values, and cross-project context</marked-text>. Individual projects (games, shows, tools) live as sub-directories or sibling projects that reference back to the Hub.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. Is this an <marked-text>IP Hub</marked-text> (fictional universe, characters, world) or an <marked-text>Org Hub</marked-text> (studio, company, team)?</div><div>2. What sub-projects already exist or are planned?</div><div>3. What shared content needs to exist across all of them?</div><div>4. Who reads this Hub - just you, a team, or external contributors?</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with the IP or org name, what it is, and its core themes or values.</div><div><br></div><div>For an <marked-text>IP Hub</marked-text> - create a canon/ directory: characters, world, timeline, continuity rules.</div><div><br></div><div>For an <marked-text>Org Hub</marked-text> - create a teams/ directory: roles, responsibilities, active initiatives.</div><div><br></div><div>Add sub-project links to the workspace index once sub-projects exist.</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div>IP Hub: <marked-text>canon, lore, characters, world, continuity, arc</marked-text></div><div>Org Hub: <marked-text>teams, roles, initiatives, guidelines, brand</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Update Tasks — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Update Boards</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>When to Run</h2><div>Run this action:</div><div><br></div><div>- After completing a task</div><div>- When starting a new task</div><div>- At the end of each working session</div><div><br></div><div>Open <a href="../../boards/tasks.page">boards/tasks.page</a> to begin.</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Steps</h2><div><strong>1.</strong> Move completed items from To Do or In Progress to <strong>Done</strong>.</div><div><br></div><div><strong>2.</strong> Move newly-started items to <strong>In Progress</strong>. There should be at most one or two items in progress at any time.</div><div><br></div><div><strong>3.</strong> Add new tasks to <strong>To Do</strong>. Write each task so it is self-contained - an agent or future you should be able to pick it up without asking questions.</div><div><br></div><div><strong>4.</strong> Remove tasks that are no longer relevant. If the reason for removing is non-obvious, add a one-line note in the history entry instead.</div><div><br></div><div><strong>5.</strong> Check <a href="../../boards/backlog.page">boards/backlog.page</a>. If anything there is now concrete enough to become a task, move it to To Do.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+</body></html>

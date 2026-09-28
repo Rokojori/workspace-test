@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Software Dev — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Software Dev</h1><div>A software project workspace. <marked-text>Stack-agnostic by design</marked-text> - the guides are placeholder documents you fill in during initialization to match the actual stack, standards, and tooling of the project. Once filled, any agent or contributor can read them and work without re-explaining the setup.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. What is the <marked-text>stack</marked-text>? (language, framework, runtime)</div><div>2. Existing codebase or starting fresh?</div><div>3. How is it <marked-text>deployed</marked-text>? (local, server, cloud, CI/CD pipeline)</div><div>4. Are there linting or formatting tools in use?</div><div>5. What is the <marked-text>testing strategy</marked-text>? (unit, integration, e2e, none yet)</div><div>6. Solo or team?</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with the project purpose, stack, and current state.</div><div><br></div><div>Create these guides and fill them in based on interview answers:</div><div><br></div><div>- <marked-text>guides/code-conventions/</marked-text> - naming, structure, patterns specific to this stack</div><div>- <marked-text>guides/testing-strategy/</marked-text> - what to test, how, and what is out of scope</div><div>- <marked-text>guides/ci-cd/</marked-text> - how to build, deploy, and what the pipeline looks like</div><div>- <marked-text>guides/linting/</marked-text> - tools, rules, and how to run them</div><div><br></div><div>Leave sections blank rather than generic - a blank section tells the next agent to ask, a generic one misleads.</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div><marked-text>stack, build, deploy, lint, test suite, CI/CD, PR, branch, module, dependency</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

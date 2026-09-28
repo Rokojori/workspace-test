@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Update Outline — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Update Outline</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>When to Run</h2><div>Only when something changes at the project level:</div><div><br></div><div>- A new system or major feature was built</div><div>- A key architectural or technical decision was made</div><div>- The project scope or goals shifted</div><div>- A significant dependency was added or removed</div><div><br></div><div>Do <strong>not</strong> run this for routine task completion. The outline describes what the project is, not what happened today.</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>What to Update</h2><div>Open <a href="../../outline/index.page">outline/index.page</a>.</div><div><br></div><div><strong>What it is</strong> - update if the project scope or purpose shifted. Keep this to two or three sentences. It is the first thing any agent reads.</div><div><br></div><div><strong>What exists now</strong> - add newly built systems. Remove things that were removed or replaced. Include key implementation details an agent needs to work with the system.</div><div><br></div><div><strong>What's next</strong> - replace completed priorities with current ones. Keep this honest - a stale "what's next" is worse than an empty one.</div><div><br></div><div>Keep the outline <marked-text>concise and authoritative</marked-text>. Long outlines with implementation details go stale faster and slow agents down. Link to guides for depth.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+</body></html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Authoring — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Authoring</h1><div>A workspace for writing, worldbuilding, lore, or music composition. Organized as a <marked-text>wiki of interconnected knowledge</marked-text> - characters, locations, timelines, and relationships link to each other and grow over time. Structure is organic: start with what you know and expand outward as the work deepens.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. What kind of project? (novel, screenplay, worldbuilding, tabletop RPG, music, other)</div><div>2. Existing material to import, or starting from scratch?</div><div>3. What is the <marked-text>scope</marked-text>? (single story, series, entire universe)</div><div>4. What is the primary <marked-text>output format</marked-text>? (prose, script, game book, album, lore bible)</div><div>5. Solo or collaborative?</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with the title, genre, and a short logline or concept.</div><div><br></div><div>Create a <marked-text>characters/</marked-text> directory - one page per major character: role, traits, arc, relationships.</div><div><br></div><div>Create a <marked-text>world/</marked-text> directory - locations, history, rules of the world, factions.</div><div><br></div><div>Create a <marked-text>timeline/</marked-text> page for chronological reference - events in story order and real-world order if they differ.</div><div><br></div><div>Use boards to track drafting status: chapters, scenes, tracks, or episodes - whatever the unit of output is.</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div><marked-text>character, location, arc, chapter, scene, draft, canon, worldbuilding, lore, timeline, faction</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

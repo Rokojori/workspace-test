@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Getting Started — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block>
+  <full--width--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Getting Started</h1><div>Set up this workspace for a specific project type. Run this at the start of a new project, before other work begins.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Steps</h2><div>1. Ask the user which project type fits best, or read <a href="project-types/index.page">project-types/index.page</a> together to decide.</div><div><br></div><div>2. Ask a few scoping questions: what is the project called, who is involved, what is the first goal.</div><div><br></div><div>3. Fill in the outline with the project's specific details - name, purpose, and current state.</div><div><br></div><div>4. If the project type calls for specific boards or guides, add them now. Use the project type page as a checklist of what to set up.</div><div><br></div><div>5. Run <a href="../update-history/index.page">Update History</a> to log the initialization session.</div></two--columns--area>
+  <two--columns--area data--page--area contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Project Types</h2><div>Five types are available. Read the project types page to understand each option and pick the right one.</div><div><br></div><div><a href="project-types/index.page">Read project types</a></div><div><br></div><h2>When to Re-run</h2><div>Re-run this action if the project type changes significantly - for example a research project that becomes a software product. Treat it as a workspace restructure, not a reset.</div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

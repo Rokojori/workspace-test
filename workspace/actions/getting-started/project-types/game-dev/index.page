@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Game Dev — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Game Dev</h1><div><marked-text>Design-first</marked-text> - the game design document comes before the code. The workspace is organized around the GDD and grows alongside the game from early concept through production and polish. Boards track design tasks and implementation tasks separately so creative and technical work stay legible independently.</div></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Agent Interview</h2><div>Ask the user:</div><div><br></div><div>1. What <marked-text>engine</marked-text>? (Godot, Unity, Unreal, other, or engine-agnostic)</div><div>2. What <marked-text>genre and core mechanic</marked-text>?</div><div>3. Existing GDD or starting from scratch?</div><div>4. Solo or team? If team, what roles?</div><div>5. Target platform? (PC, mobile, console, web)</div><div>6. What phase is the project in? (concept, prototype, production, polish)</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace Setup</h2><div>Fill the outline with the game title, genre, core loop, and target platform.</div><div><br></div><div>Create a <marked-text>gdd/</marked-text> directory:</div><div>- gdd/mechanics/ - one page per core mechanic</div><div>- gdd/characters/ - player, NPCs, enemies</div><div>- gdd/world/ - lore, levels, scenes, art direction</div><div><br></div><div><br></div><div>If a team project, add guides/engine-conventions/ for project structure and naming rules.</div></two--columns--area>
+</two--columns--block>
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Vocabulary</h2><div><marked-text>GDD, mechanic, scene, level, asset, build, playtest, milestone, prototype, polish</marked-text></div></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+</body></html>

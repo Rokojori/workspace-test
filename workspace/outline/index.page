@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Outline — workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>Outline</h1><div>Describe the purpose/value proposition of the project in short</div></full--width--area>
+</full--width--block>
+<full--width--block>
+  <full--width--area><h2>Vision</h2><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">Describe the&nbsp;&nbsp;</span><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><marked-text>project scope and goals</marked-text></span><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">&nbsp;in one paragraph, explain use cases, show examples.</span></div></full--width--area>
+</full--width--block><two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Current State</h2><div>Describe the project's <marked-text>current feature set</marked-text>.</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>What's next</h2><div>Current <marked-text>priorities and open questions</marked-text>. Keep this up to date as the project evolves.</div></two--columns--area>
+</two--columns--block>
+<two--columns--block>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">MVP/Core Features</h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px;">Explainations and more insights for the <marked-text>main tools and concepts</marked-text></span></div></two--columns--area>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Highlights &amp; Details</h2><div style="letter-spacing: -0.3px; color: rgb(146, 156, 175);"><span style="letter-spacing: -0.3px;">Rough listing to get the <marked-text>full picture</marked-text>, genre/use-case typical descriptions of feature sets.</span></div></two--columns--area>
+</two--columns--block><two--columns--block>
+  <two--columns--area><h2>Tech Stack</h2><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">A brief listing of the <marked-text>used technoligies</marked-text></span></div></two--columns--area>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Misc</h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px;">Additions</span></div></two--columns--area>
+</two--columns--block></page--root>
+
+<page--footer></page--footer>
+
+
+</body></html>

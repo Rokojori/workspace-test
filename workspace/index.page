@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>workspace-test</title>
+    <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body data-theme="default-roject">
+<page--header></page--header>
+
+<page--root data-theme="default-roject">
+<full--width--block data--page--block="">
+  <full--width--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h1>workspace-test</h1></full--width--area>
+</full--width--block>
+<two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>About</h2><div>Hello Workspace!</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>Workspace</h2><div><a href="outline/index.page">Outline</a>&nbsp;</div><div>What the project is and where it's going.</div><div><br></div><div><a href="boards/index.page">Boards</a>&nbsp;</div><div>Tasks, bugs, backlog.</div><div><br></div><div><a href="rojos/index.page">Rojos</a>&nbsp;</div><div>Custom agents.&nbsp;</div><div><br></div><div><a href="guides/index.page">Guides</a>&nbsp;</div><div>How agents should work with this project.</div><div><br></div><div><a href="actions/index.page">Actions</a>&nbsp;</div><div>Named repeatable procedures for agents.</div><div><br></div><div><a href="history/index.page">History</a>&nbsp;</div><div>Session logs.</div><div><br></div><div><a href="reference/index.page">Reference</a>&nbsp;</div><div>Code documentation.&nbsp;</div></two--columns--area>
+</two--columns--block>
+<full--width--block>
+  <full--width--area></full--width--area>
+</full--width--block><two--columns--block data--page--block="">
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>For Agents: Orientation</h2><div>Read all of these pages in order <marked-text>at the start of every session</marked-text>. They are short and give the full context needed to work effectively.</div><div><br></div><div>1. This page - overview and links.</div><div>2. <a href="outline/index.page">outline/index.page</a> - what the project is and where it is going.</div><div>3. <a href="guides/index.page">guides/index.page</a> - rules and conventions.</div><div>4. <a href="guides/agent-conduct/index.page">guides/agent-conduct/index.page</a> - how to reason, check in, and manage knowledge.</div><div>5. <a href="boards/tasks.page">boards/tasks.page</a> - what is active right now.</div><div>6. <a href="history/index.page">history/index.page</a> - what happened last session.</div><div><br></div><div>After reading, <marked-text>confirm to the user and wait for direction</marked-text>. Do not read deeper files unprompted.</div></two--columns--area>
+  <two--columns--area data--page--area="" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off" style="outline: none;"><h2>For Agents: Memory Rule</h2><div><marked-text>All project knowledge belongs in this workspace</marked-text> - not in local agent memory files. The workspace is version-controlled, shared across machines, and readable by any agent or human.</div><div><br></div><div>- Decisions and their reasons - <marked-text>history</marked-text></div><div>- Active tasks - <marked-text>boards</marked-text></div><div>- Rules and conventions - <marked-text>guides</marked-text></div><div>- Big picture and goals - <marked-text>outline</marked-text></div><div>- Complex or unusual code - <marked-text>reference</marked-text></div></two--columns--area>
+</two--columns--block>
+</page--root>
+
+<page--footer></page--footer>
+
+
+
+</body></html>

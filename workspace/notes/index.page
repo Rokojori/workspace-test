@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Tasks</title>
+  <style>
+@import url('https://styles.rokojori.com/get-font?family=Barlow&weights=100,400,700,900');
+  </style>
+</head>
+<body>
+<page--header></page--header>
+
+<page--root>
+<full--width--block>
+  <full--width--area><h1>NOTES</h1><p>Working folders for individual notes - one subdirectory per note, created with the "Add Note" tool in the editor header. Each starts as a bare page and can grow to hold any notes, drafts, or any links to other files.</p></full--width--area>
+</full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>

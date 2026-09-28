@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>New Page</title>
+  <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body>
+<page--header></page--header>
+
+<page--root>
+  <full--width--block data--page--block="">
+    <full--width--area data--page--area=""><h1>Rojos</h1><div>Individualized Agents</div></full--width--area>
+  </full--width--block>
+<two--columns--block>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Rojo</h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">Rojo is the name for the&nbsp;<marked-text>individualized LLMs</marked-text>&nbsp;that can be used in the project.&nbsp;<span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">Their settings file (</span><marked-text style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">ending with *.rojo</marked-text><span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">)&nbsp; contains their source and other attributes.</span></div></two--columns--area>
+  <two--columns--area><h2>Rojo Usage</h2><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">All&nbsp;</span><marked-text style="letter-spacing: -0.3px;">*.rojo files</marked-text><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">&nbsp;defined in the&nbsp;</span><marked-text style="letter-spacing: -0.3px;">rojos directory</marked-text><span style="letter-spacing: -0.3px; color: rgb(146, 156, 175);">&nbsp;can be edited with a&nbsp;<marked-text>Rojo Settings</marked-text>&nbsp;panel and then can be used in the&nbsp;<marked-text>Rojo Chat.</marked-text></span></div></two--columns--area>
+</two--columns--block><full--width--block>
+  <full--width--area></full--width--area>
+</full--width--block><two--columns--block>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Rojo Agent Customization</h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px;">Besides the workspace as a comprehensive entry point,&nbsp;</span><span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">Rojos are designed to get their&nbsp;<marked-text>own individual instructions</marked-text>&nbsp;and can save things that are only relevant to them.</span></div><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );"><br></span></div><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );">The agents get an <marked-text>individual start prompt</marked-text>, which can also refer to files in the workspace and could be also a page.</span></div><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><span style="letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family ); font-size: var( --font--scale );"><br></span></div></two--columns--area>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Agent Memory</h2><div><div style="letter-spacing: -0.3px; color: rgb(146, 156, 175);">It's wise to instruct every rojo to use<marked-text> its own directory to store memory</marked-text> entries as pages, so that they can save things which a user can read and edit easily.</div></div><div style="letter-spacing: -0.3px; color: rgb(146, 156, 175);"><br></div><div style="letter-spacing: -0.3px; color: rgb(146, 156, 175);">Usually the model would be reused, but can also change over time.</div></two--columns--area>
+</two--columns--block><two--columns--block>
+  <two--columns--area><h2 style="letter-spacing: -0.3px;">Agent Look</h2><div>Rojos can also have a look, so that it is <marked-text>easily distingishable</marked-text>, whether one is a high-end claude api or a running-at-home local LLM.</div><div><br></div><div>Have fun creating cool looks!</div></two--columns--area>
+  <two--columns--area><h2><span style="color: var( --h2--color ); font-size: calc( var( --h2--scale ) * 1rem ); letter-spacing: -0.3px; background-color: var(--block--background--color); font-family: var( --font--family );">Agent Integrations</span></h2><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">Agents can be integrated from different sources:</div><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"><br></div><div style="color: rgb(146, 156, 175); letter-spacing: -0.3px;"></div><marked-text style="letter-spacing: -0.3px;"><div>- External/local URLs</div><div>- Rokojori Tunnels</div><div>- Claude API</div><div>- Claude Code locally</div><div><br></div></marked-text></two--columns--area>
+</two--columns--block></page--root>
+
+<page--footer></page--footer>
+
+</body></html>

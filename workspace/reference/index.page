@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>New Page</title>
+  <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body>
+<page--header></page--header>
+
+<page--root>
+  <full--width--block data--page--block="">
+    <full--width--area data--page--area=""><h1>Reference</h1></full--width--area>
+  </full--width--block>
+<full--width--block>
+  <full--width--area>Technical documentation, explaination, simplifications, clarfications for code, names, processes</full--width--area>
+</full--width--block><two--columns--block>
+  <two--columns--area><h2>Complicated Code</h2><div>Some code is more complicated that other code. Some has a lot of dependencies or unusal connections. Everything that helps <marked-text>to understand complex code</marked-text> better, can be here.</div><div><br></div></two--columns--area>
+  <two--columns--area><h2>Cheat Sheets</h2><div><span style="color: rgb(146, 156, 175); letter-spacing: -0.3px;">Not everything needs to complex that can have listing. Some things are trivial but are <marked-text>needed all the time</marked-text>. Conventions, paths,&nbsp; entry points etc.</span></div></two--columns--area>
+</two--columns--block></page--root>
+
+<page--footer></page--footer>
+
+</body></html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>New Page</title>
+  <style>
+@import url('/fonts/barlow.css');
+  </style>
+</head>
+<body>
+<page--header></page--header>
+
+<page--root>
+  <full--width--block data--page--block="">
+    <full--width--area data--page--area=""><h1>Bugs</h1></full--width--area>
+  </full--width--block>
+</page--root>
+
+<page--footer></page--footer>
+
+</body></html>
